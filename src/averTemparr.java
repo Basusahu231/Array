@@ -1,19 +1,15 @@
 import  java.util.*;
 public class averTemparr {
-public static void main(String[] args) {
-	Scanner scan = new Scanner(System.in);
-	int [] arr = new int[7];
-	System.out.println("Enter the temperature of a week");
-	for(int i =0; i<=arr.length-1; i++)
-	{
-		arr[i]=scan.nextInt();
+	public static void main(String[] args) {
+		Scanner scan = new Scanner(System.in);
+		System.out.println("Enter a String");
+		String s = scan.nextLine();
+		int res = string(s) ;
 	}
-	int sum =0;
-	for(int i =0; i<=arr.length-1; i++)
+	public static  int string(String s)
 	{
-		sum +=arr[i];
+		int res = s.length();
+		System.out.println(res);
+		return res;
 	}
-	System.out.println("The average temperature of a week is : " + (sum/7) );
-	
-}
 }

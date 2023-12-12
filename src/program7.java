@@ -1,3 +1,4 @@
+import java.util.Arrays;
 
 public class program7 {
 	// Method to find the subarray with the minimum sum of size 'k'.
@@ -34,7 +35,7 @@ public class program7 {
 
     // Main method to demonstrate finding the minimum sum subarray.
     public static void main(String[] args) {
-        // Initialize the 'nums' array and subarray size 'k'.
+   
         int[] nums = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
         int k = 4;
 

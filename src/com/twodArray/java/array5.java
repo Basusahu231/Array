@@ -19,9 +19,20 @@ public static void main(String[] args) {
 	System.out.println(y);
 	
 }
+	
+
+public static void demo()
+{
+Scanner scan = new Scanner(System.in);
+{
+		int z = x + y;
 }
+}
+public static void res()
+{
 
-
+}
+}
 	
 
 
